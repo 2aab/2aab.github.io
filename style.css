@@ -17,6 +17,19 @@ body {
 
 }
 
+.widget-container {
+
+  overflow-y: hidden;
+  overflow-x: hidden;
+
+}
+
+iframe{
+
+    overflow: hidden;
+
+}
+
 body{
   margin: 0;
   padding: 0;
@@ -69,7 +82,7 @@ nav ul a {
 
 .links {
 
-  line-height: 1.75; 
+  line-height: 1.75;
 
 }
 
