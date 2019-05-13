@@ -1,13 +1,20 @@
-<style type="text/css">
+
+/*Defining a new font*/
 
 @font-face {
-    font-family: 'HelveticaNeueLTStd93BlackExtended';
-    src: url('fonts/HelveticaNeueLTStd93BlackExtended.eot');
-    src: url('fonts/HelveticaNeueLTStd93BlackExtended.eot') format('embedded-opentype'),
-         url('fonts/HelveticaNeueLTStd93BlackExtended.woff2') format('woff2'),
-         url('fonts/HelveticaNeueLTStd93BlackExtended.woff') format('woff'),
-         url('fonts/HelveticaNeueLTStd93BlackExtended.ttf') format('truetype'),
-         url('fonts/HelveticaNeueLTStd93BlackExtended.svg#HelveticaNeueLTStd93BlackExtended') format('svg');
+    font-family: "HelveticaNeueLTStd93BlackExtended";
+    src: url("fonts/HelveticaNeueLTStd93BlackExtended.eot");
+    src: url("fonts/HelveticaNeueLTStd93BlackExtended.eot") format("embedded-opentype"),
+         url("fonts/HelveticaNeueLTStd93BlackExtended.woff2") format("woff2"),
+         url("fonts/HelveticaNeueLTStd93BlackExtended.woff") format("woff"),
+         url("fonts/HelveticaNeueLTStd93BlackExtended.ttf") format("truetype"),
+         url("fonts/HelveticaNeueLTStd93BlackExtended.svg#HelveticaNeueLTStd93BlackExtended") format("svg");
+}
+
+body {
+
+  font-family: HelveticaNeueLTStd93BlackExtended;
+
 }
 
 body{
@@ -16,12 +23,8 @@ body{
   overflow: hidden;
   height: 100%;
   max-height: 100%;
-  font-family:"HelveticaNeueLTStd93BlackExtended";
+/*  font-family: Arial; */
   line-height: 1.5em;
-}
-
-h1{
-  font-family:"HelveticaNeueLTStd93BlackExtended";
 }
 
 #nav{
@@ -29,16 +32,16 @@ h1{
   top: 0;
   bottom: 0;
   left: 0;
-  width: 230px; /* Width of navigation frame */
+  width: 230px;
   height: 100%;
-  overflow: hidden; /* Disables scrollbars on the navigation frame. To enable scrollbars, change "hidden" to "scroll" */
+  overflow: hidden;
   background: #ddd;
 }
 
 main{
   position: fixed;
   top: 0;
-  left: 230px; /* Set this to the width of the navigation frame */
+  left: 230px;
   right: 0;
   bottom: 0;
   overflow: auto;
@@ -46,7 +49,7 @@ main{
 }
 
 .innertube{
-  margin: 15px; /* Provides padding for the content */
+  margin: 15px;
 }
 
 p {
@@ -64,14 +67,18 @@ nav ul a {
   text-decoration: none;
 }
 
-/*IE6 fix*/
+.links {
+
+  line-height: 1.75; 
+
+}
+
+
 * html body{
-  padding: 0 0 0 230px; /* Set the last value to the width of the navigation frame */
+  padding: 0 0 0 230px;
 }
 
 * html main{
   height: 100%;
   width: 100%;
 }
-
-</style>
