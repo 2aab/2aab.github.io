@@ -4,20 +4,13 @@
 
   <head>
 
-      <script language="javascript" type="text/javascript">
-        function playSound(soundfile) {
-        document.getElementById("dummy").innerHTML= "<embed src=\""
-        +soundfile+"\" hidden=\"true\" autostart=\"true\"
-        loop=\"false\" />";
-        }
-      </script>
-
-
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
     <title>2AAB STORE</title>
 
     <link rel="stylesheet" type="text/css" href="artstyle.css">
+
+    <audio id="sound1" src="short-beep.wav" preload="auto"></audio>
 
   </head>
 
@@ -25,9 +18,9 @@
 
     <div>
 
-      <span id="dummy"></span>
 
-      <p><a href="index.html" onclick="playSound("short-beep.wav");" >Go Back</a></p>
+
+      <a href="index.html" onclick="document.getElementById('sound1').play()"; >Go Back</a>
 
     </div>
 
