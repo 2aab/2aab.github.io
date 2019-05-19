@@ -12,14 +12,22 @@
 }
 
 img.logo {
- /*background: radial-gradient(rgba(40, 45, 231, 1) 60%, rgba(40, 45, 231, 0) 70%);*/
   padding: 10px;
   display: block;
   margin: 0 auto;
 }
 
 main {
-  overflow-y: scroll;
+  overflow-y: auto;
+}
+
+#myVideo {
+  z-index: -999;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
 }
 
 #title {
@@ -33,7 +41,7 @@ main {
   text-align: center;
   position: sticky;
   position: -webkit-sticky;
-  top: 0; /* required */
+  top: 20px; /* required */
 }
 
 
@@ -42,9 +50,8 @@ iframe{
     overflow: visible;
     display: block;
     vertical-align: middle;
-    padding: 20px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 1px;
+
 }
 
 body{
@@ -55,11 +62,10 @@ body{
   height: 100%;
   max-height: 100%;
 /*  font-family: Arial; */
-  line-height: 1.5em;
 }
 
 #mainpage {
-  background-color: white;
+  background: url("background.png") center center fixed;
 }
 
 #nav{
@@ -128,4 +134,60 @@ li {
 * html main{
   height: 100%;
   width: 100%;
+}
+
+/*NEW SHIT*/
+
+button:focus{
+  outline:none;
+}
+.box{
+  background:#C0C0C0;
+  border-width:1px;
+  border-color:#FFFFFF #808080 #808080 #FFFFFF;
+  border-style:solid;
+  position:absolute;
+  top:56.5%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  padding:1px;
+}
+div.title{
+  height:18px;
+  width:100%;
+  background:#000080;
+  color:#FFF;
+}
+img.title{
+  float:left;
+}
+p.title{
+  margin:2px 0 0 1px;
+  float:left;
+  font-family:Tahoma;
+  font-weight:bold;
+  font-size:11px;
+}
+.title button{
+  margin:2px 2px 2px 0;
+  float:right;
+  width:14px;
+  height:13.5px;
+  background:#C0C0C0;
+  border-width:1px;
+  border-color:#FFFFFF #808080 #808080 #FFFFFF;
+  padding:0;
+  font-size:9px;
+  font-weight:bold;
+  font-family:Tahoma;
+  text-align:center;
+  focus:none;
+}
+div.body{
+  padding:3px 2px 2px;
+  display:inline-block;
+}
+div.body p{
+  font-family:"MS Sans Serif";
+  font-size:11px;
 }
