@@ -18,8 +18,8 @@ img.logo {
   margin: 0 auto;
 }
 
-html {
-  overflow: visible !important;
+main {
+  overflow-y: scroll;
 }
 
 #title {
@@ -29,8 +29,11 @@ html {
   padding: 30px ;
   border-width: 3px ;
   border-color: rgb(40, 45, 231) ;
-  margin: 3px;
+  margin: 20px;
   text-align: center;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0; /* required */
 }
 
 
@@ -60,16 +63,9 @@ body{
 }
 
 #nav{
+
   background-image:
-
-    url(LOGO.png),
-
-    linear-gradient(
-
-     rgba(40, 45, 231, 1),
-      rgba(40, 45, 231, 0.5)
-    );
-
+  url(LOGO.png),linear-gradient(rgba(40, 45, 231, 1),rgba(40, 45, 231, 0.5));
   position: absolute;
   top: 0;
   bottom: 0;
@@ -105,8 +101,6 @@ nav ul {
 
 nav ul a {
   padding: 0;
-  /* text-align: center; */
-  /* color: #39ff14; */
   color:#fff;
   text-decoration: none;
 }
@@ -119,16 +113,13 @@ li {
   padding-top:10px;
   padding-bottom: 10px;
   padding-left: 10px;
+  text-align: left;
 
 }
 
 .links {
-/*  text-align: center; */
   line-height: 1.75;
-
 }
-
-
 
 * html body{
   padding: 0 0 0 230px;
@@ -137,4 +128,4 @@ li {
 * html main{
   height: 100%;
   width: 100%;
-}}
+}
