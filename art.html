@@ -10,7 +10,12 @@
 
     <link rel="stylesheet" type="text/css" href="artstyle.css">
 
-    <audio id="sound1" src="short-beep.wav" preload="auto"></audio>
+      <script>
+
+      var bleep = new Audio();
+      bleep.src = "short-beep.mp3";
+
+      </script>
 
   </head>
 
@@ -18,13 +23,11 @@
 
     <div>
 
-
-
-      <a href="index.html" onclick="document.getElementById('sound1').play()"; >Go Back</a>
+      <a href="#" onclick="bleep.play();"; >Go Back</a>
 
     </div>
 
-    <div>
+    <div class="mainframe">
 
       <h1>In Maintenance :)</h1>
 

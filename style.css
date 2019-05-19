@@ -18,26 +18,28 @@ img.logo {
   margin: 0 auto;
 }
 
-body {
-
-  font-family: HelveticaNeueLTStd93BlackExtended;
-
+#title {
+  background-image: radial-gradient(rgba(40, 45, 231, 1),rgba(40, 45, 231,0.7));
+  color: white;
+  border-style: solid;
+  padding: 30px ;
+  border-width: 3px ;
+  border-color: rgb(40, 45, 231) ;
+  margin: 3px;
+  text-align: center;
 }
 
-.widget-container {
 
-  overflow-y: hidden;
-  overflow-x: hidden;
-
-}
 
 iframe{
-
-    overflow: hidden;
-
+    overflow: show;
+    display: block;
+    vertical-align: middle;
+    padding: 20px;
 }
 
 body{
+  font-family: HelveticaNeueLTStd93BlackExtended;
   margin: 0;
   padding: 0;
   overflow: hidden;
@@ -45,6 +47,13 @@ body{
   max-height: 100%;
 /*  font-family: Arial; */
   line-height: 1.5em;
+}
+
+#mainpage {
+/*
+  background-image: url(LOGOBLUR.png);
+  background-color: white;
+  background-repeat: repeat; */
 }
 
 #nav{
@@ -118,6 +127,7 @@ li {
 }
 
 
+
 * html body{
   padding: 0 0 0 230px;
 }
@@ -125,4 +135,4 @@ li {
 * html main{
   height: 100%;
   width: 100%;
-}
+}}
