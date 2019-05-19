@@ -19,7 +19,7 @@ img.logo {
 }
 
 #title {
-  background-image: radial-gradient(rgba(40, 45, 231, 1),rgba(40, 45, 231,0.7));
+  background: radial-gradient(ellipse at center, rgba(40,45,231,1) 0%,rgba(40,45,231,0.7) 100%);
   color: white;
   border-style: solid;
   padding: 30px ;
