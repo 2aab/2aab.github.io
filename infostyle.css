@@ -1,0 +1,64 @@
+@font-face {
+    font-family: "HelveticaNeueLTStd93BlackExtended";
+    src: url("fonts/HelveticaNeueLTStd93BlackExtended.eot");
+    src: url("fonts/HelveticaNeueLTStd93BlackExtended.eot") format("embedded-opentype"),
+         url("fonts/HelveticaNeueLTStd93BlackExtended.woff2") format("woff2"),
+         url("fonts/HelveticaNeueLTStd93BlackExtended.woff") format("woff"),
+         url("fonts/HelveticaNeueLTStd93BlackExtended.ttf") format("truetype"),
+         url("fonts/HelveticaNeueLTStd93BlackExtended.svg#HelveticaNeueLTStd93BlackExtended") format("svg");
+}
+
+body {
+  font-family: "HelveticaNeueLTStd93BlackExtended";
+  color: white;
+}
+
+p.headertext {
+  color: white;
+  text-align: center;
+  border: 10px;
+  border-color: black;
+  border-style: solid;
+  background-color: black;
+  padding: 10px;
+}
+
+#myVideo {
+  z-index: -999;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+div.contact_box{
+  padding: 30px;
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  background: rgba(0,0,0,0.5);
+  border-radius: 15px;
+  padding: 15px;
+}
+
+div.contact_info {
+  text-align: center;
+}
+
+ul {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+li {
+  padding: 25px 100px;
+  margin: 20px;
+  border: 3px;
+  border-radius: 5px;
+  border-style: solid;
+}

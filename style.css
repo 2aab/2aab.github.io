@@ -17,10 +17,6 @@ img.logo {
   margin: 0 auto;
 }
 
-main {
-  overflow-y: auto;
-}
-
 #myVideo {
   z-index: -999;
   position: fixed;
@@ -70,7 +66,7 @@ body{
 
   background-image:
   url(LOGO.png),linear-gradient(rgba(40, 45, 231, 1),rgba(40, 45, 231, 0.5));
-  position: absolute;
+  position: fixed;
   top: 0;
   bottom: 0;
   left: 0;
@@ -81,7 +77,8 @@ body{
 }
 
 main{
-  position: fixed;
+  overflow-y: auto;
+  position: absolute;
   top: 0;
   left: 230px;
   right: 0;
@@ -90,7 +87,11 @@ main{
 }
 
 .innertube{
-  margin: 50px;
+  margin: 15px;
+}
+
+.innertube_main{
+  margin: 50px !important;
 }
 
 p {
@@ -111,13 +112,14 @@ nav ul a {
 
 li {
   border-color:#fff;
-  margin:2px;
+  margin-bottom:25px;
   border-style: solid;
   border-width: 3px;
   padding-top:10px;
   padding-bottom: 10px;
   padding-left: 10px;
   text-align: left;
+
 
 }
 
