@@ -24,6 +24,11 @@ p.headertext {
   padding: 10px;
 }
 
+#gobacklink{
+  text-align: left;
+  margin-right: 20px;
+}
+
 #myVideo {
   z-index: -999;
   position: fixed;
