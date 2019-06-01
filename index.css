@@ -3,6 +3,11 @@ font-family: "Helvetica93";
 src: url("./fonts/Helvetica93.otf") format("opentype");
 }
 
+html,body {
+  height: 100%;
+  margin:0;
+  padding:0;
+}
 * {
   box-sizing: border-box;
   font-family: "Helvetica93";
@@ -23,8 +28,8 @@ iframe {
   display: inline-block;
 }
 .iframe {
-  text-align: center;
   height: 950px;
+  text-align: center;
   overflow: hidden;
 }
 nav {
@@ -76,11 +81,16 @@ nav {
       .nav-link {
         display: none;
       }
+      #iframe {
+        overflow: hidden;
+        height: 870px;
+      }
       iframe{
         margin-top: 95px;
       }
       .iframe {
-        height: 830px;
+        min-height: 100%;
+        margin-bottom:-79px;
         overflow: hidden;
       }
 }
