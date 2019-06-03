@@ -28,7 +28,7 @@ iframe {
   display: inline-block;
 }
 .iframe {
-  height: 950px;
+/*height: 950px;*/
   text-align: center;
   overflow: hidden;
 }
@@ -37,7 +37,7 @@ nav {
   min-height: 90px;
   background-color: white;
   border-bottom: 3px solid #282de7;
- position: fixed;
+  position: fixed;
   top: 0;
   left: 0;
   text-align: center;
@@ -83,7 +83,7 @@ nav {
       }
       #iframe {
         overflow: hidden;
-        height: 870px;
+        /*height: 870px;*/
       }
       iframe{
         margin-top: 95px;
