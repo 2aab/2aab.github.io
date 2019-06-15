@@ -30,7 +30,11 @@ iframe {
 .iframe {
 /*height: 950px;*/
   text-align: center;
-  overflow: hidden;
+  overflow: scroll;
+  -webkit-overflow-scrolling:touch;
+}
+.iframe::-webkit-scrollbar {
+  width: 0 !important
 }
 nav {
   width: 100%;
