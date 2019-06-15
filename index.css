@@ -86,7 +86,7 @@ nav {
         display: none;
       }
       #iframe {
-        /*overflow: hidden;*/
+        overflow: hidden;
         /*height: 870px;*/
       }
       iframe{
@@ -96,7 +96,7 @@ nav {
       .iframe {
         min-height: 100%;
         margin-bottom:-79px;
-        /*overflow: hidden;*/
+        overflow: hidden;
       }
 }
 footer {
