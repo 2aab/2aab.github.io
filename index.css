@@ -91,6 +91,7 @@ nav {
       }
       iframe{
         margin-top: 95px;
+        width: 95%;
       }
       .iframe {
         min-height: 100%;
