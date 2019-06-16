@@ -1,0 +1,119 @@
+@font-face {
+font-family: "Helvetica93";
+src: url("./fonts/Helvetica93.otf") format("opentype");
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+html,body {
+  height: 100%;
+  margin:0;
+  padding:0;
+}
+* {
+  font-family: "Helvetica93";
+  font-size: 16px;
+}
+p, a {
+  color: #282de7;
+  text-decoration: none;
+}
+body {
+  background-image: url("./media/raf.gif");
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+}
+nav {
+  width: 100%;
+  min-height: 90px;
+  background-color: rgba(255,255,255,0.5);
+  border-bottom: 3px solid #282de7;
+  position: fixed;
+  top: 0;
+  left: 0;
+  text-align: center;
+  z-index: 9999;
+}
+.nav-title {
+  height: 95px;
+}
+.nav-link {
+  display: none;
+}
+.logogif {
+  display: inline-block;
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 75px;
+  height: 75px;
+  overflow: hidden;
+}
+.logopng {
+  width: 70px;
+  overflow: hidden;
+  margin: 10px auto;
+}
+.content {
+  width: 100%;
+  height: 100%;
+}
+.menu-container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+.menu {
+  background-color: rgba(255,255,255,0.5);
+  margin: auto;
+  height: 57vh;
+  width: 55vw;
+  border: 3px solid #282de7;
+  border-radius: 1%;
+  display: flex;
+  align-items: center;
+}
+.beats-container,.art-container,.info-container {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+}
+.beats,.art,.info {
+  display: block;
+  width: 110px;
+  height: 110px;
+  /*background: radial-gradient( rgba(255,255,255,1) 0%,rgba(255,255,0,0) 70%);*/
+  justify-content: center;
+}
+.beatsgif,.artgif,.infogif {
+  align-self: center;
+  height: 110px;
+}
+.link {
+  display: flex;
+}
+.name {
+  display: block;
+  text-align: center;
+}
+.name-link {
+  margin:auto;
+}
+#btxt {
+  color: black;
+}
+#atxt {
+  color: red;
+}
+@media (hover:none), (hover:on-demand) {
+  .menu {
+    margin-top: 95px;
+    width: 100vw;
+    height: calc(100vh - 101px);
+    border:none;
+    background: none;
+  }
+}
