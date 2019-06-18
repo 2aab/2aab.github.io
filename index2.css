@@ -8,6 +8,7 @@ src: url("./fonts/Helvetica93.otf") format("opentype");
 }
 html,body {
   height: 100%;
+  width: 100%;
   margin:0;
   padding:0;
 }
@@ -22,7 +23,7 @@ p, a {
 body {
   background-image: url("./media/raf_alt3.gif");
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 100% 100%;
 }
 nav {
   width: 100%;
