@@ -24,6 +24,8 @@ body {
   background-image: url("./media/raf_alt3.gif");
   background-repeat: no-repeat;
   background-size: 100% 100%;
+  height: 100%;
+  width: 100%;
 }
 nav {
   width: 100%;
