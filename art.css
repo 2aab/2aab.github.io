@@ -1,0 +1,14 @@
+@font-face {
+font-family: "Helvetica93";
+src: url("./fonts/Helvetica93.otf") format("opentype");
+}
+
+* {
+  font-family: "Helvetica93";
+}
+body {
+  background: red;
+}
+h1 {
+  text-align: center;
+}
