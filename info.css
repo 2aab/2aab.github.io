@@ -5,6 +5,7 @@ src: url("./fonts/Helvetica93.otf") format("opentype");
 
 * {
   font-family: "Helvetica93";
+  font-size: 20px;
 }
 body {
   margin:0;
@@ -30,7 +31,6 @@ nav {
 }
 h2, a {
   color: lightgrey;
-  font-size: 20px;
 }
 .bodywrapper {
   height: calc(100vh - 198px);
