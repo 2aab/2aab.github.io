@@ -26,17 +26,14 @@ nav {
 }
 .logogif {
   height: 50px;
-  margin: 20px auto;
+  margin: 20px;
 }
 .logopng-wrapper {
-  display: inline-block;
-  margin-top: 0px;
-  margin-right: 33.47vw;
-  margin-bottom: 0px;
-  margin-left: calc(50% - 125px);
+
 }
 .back-link-wrapper {
-  display:inline-block;
+  position: absolute;
+
 }
 .title {
   border: 1px white solid;
