@@ -48,3 +48,8 @@ h2, a {
   height: 100%;
   background: url("./img/tv.png");
 }
+@media (hover:none), (hover:on-demand) {
+  * {
+    font-size: 14px;
+  }
+}
