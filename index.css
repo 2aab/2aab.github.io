@@ -124,7 +124,7 @@ nav {
     position: absolute;
 }
 .copyright {
-  color: black;
+  color: lightgrey;
   text-align: center;
   font-size: 12px;
 }
@@ -146,9 +146,6 @@ nav {
   }
   .logopng {
     display: none;
-  }
-  #btxt {
-    color: #7123E5;
   }
   body {
     background-image: url("./media/vhs.gif");

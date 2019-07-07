@@ -3,12 +3,69 @@ font-family: "Helvetica93";
 src: url("./fonts/Helvetica93.otf") format("opentype");
 }
 
+::-webkit-scrollbar {
+    display: none;
+}
 * {
   font-family: "Helvetica93";
 }
 body {
-  background: red;
+  background: url("./media/vhs.gif");
+  background-size: 100% 1080px;
+  margin: 0;
 }
-h1 {
+nav {
+  width: 100%;
+  background-color: rgba(255,255,255,0.7);
+  border-bottom: 5px solid #282de7;
+  text-align:center;
+}
+.logopng {
+  width: 150px;
+  margin: 20px auto;
+}
+.logogif {
+  height: 50px;
+  margin: 20px auto;
+}
+.logopng-wrapper {
+  display: inline-block;
+  margin-top: 0px;
+  margin-right: 33.47vw;
+  margin-bottom: 0px;
+  margin-left: calc(50% - 125px);
+}
+.back-link-wrapper {
+  display:inline-block;
+}
+.title {
+  border: 1px white solid;
+  color: white;
   text-align: center;
+}
+.img1, .img2, .img3, .img4 {
+  margin: 25px auto;
+  width: 80vw;
+  max-width: 700px;
+  flex-basis: 0;
+  border: 5px white solid;
+}
+.image-wrapper {
+  text-align: center;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+}
+.copyright {
+  color: lightgrey;
+  text-align: center;
+  font-size: 14px;
+}
+@media (hover:none), (hover:on-demand) {
+  nav {
+    position: fixed;
+  }
+  .img1 {
+    margin-top: 145px;
+  }
 }
