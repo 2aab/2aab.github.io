@@ -50,6 +50,6 @@ h2, a {
 }
 @media (hover:none), (hover:on-demand) {
   * {
-    font-size: 14px;
+    font-size: 13px;
   }
 }
