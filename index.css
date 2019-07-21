@@ -47,11 +47,8 @@ nav {
   overflow: hidden;
   margin: 20px auto;
 }
-.logopng,.logopngm {
+.logopng {
   width: 120px;
-}
-.logopngm {
-  display: none;
 }
 .logo-container {
   left: 50%;
@@ -78,7 +75,7 @@ nav {
   height: 57vh;
   width: 55vw;
   border: 5px solid #282de7;
-  border-radius: 1%;
+  border-radius: 1.5%;
   display: flex;
   align-items:center;
 }
@@ -94,12 +91,9 @@ nav {
   height: 110px;
   justify-content: center;
 }
-.beatsgif,.artgif,.infogif,.beatsgifm {
+.beatsgif,.artgif,.infogif {
   align-self: center;
   height: 110px;
-}
-.beatsgifm {
-  display: none;
 }
 .link {
   display: flex;
@@ -112,7 +106,7 @@ nav {
   margin:auto;
 }
 #btxt {
-  color: #1BB44A;
+  color: black;
 }
 #atxt {
   color: red;
@@ -134,18 +128,7 @@ nav {
     font-size: 15px;
   }
   .menu {
-    margin-top: 95px;
-    width: 100vw;
-    height: calc(100vh - 195px);
-    border:none;
-    background: none;
-  }
-  .logopngm {
-    width: 125px;
-    display: block;
-  }
-  .logopng {
-    display: none;
+    width: 90vw;
   }
   body {
     background-image: url("./media/vhs.gif");
@@ -154,13 +137,7 @@ nav {
   .menu-container {
     background: rgba(255,255,255,0);
   }
-  .beatsgifm {
-    display:block;
-  }
-  .beatsgif {
-    display: none;
-  }
   .copyright {
-    color: #404040;
+    color: lightgrey;
   }
 }
