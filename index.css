@@ -130,10 +130,6 @@ nav {
     height: 54vh;
     border-radius: 3%;
   }
-  body {
-    background-image: url("./media/vhs.gif");
-    background-size: 800px 100vh;
-  }
   .menu-container {
     background: rgba(255,255,255,0);
   }
