@@ -14,6 +14,7 @@ body {
 }
 html, body {
   touch-action: auto;
+  cursor: pointer;
 }
 .logo-container {
   width: 100%;
