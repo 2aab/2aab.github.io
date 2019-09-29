@@ -36,12 +36,15 @@ nav {
 .back-link-wrapper {
   position: absolute;
 }
+a, h1, h2 {
+  color: white;
+}
 .title {
   border: 1px white solid;
   color: white;
   text-align: center;
 }
-.img1, .img2, .img3, .img4 {
+.img {
   margin: 25px auto;
   width: 80vw;
   max-width: 700px;
