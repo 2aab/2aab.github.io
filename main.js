@@ -9,8 +9,6 @@ EssentiaWASM().then( function(EssentiaWasm) {
     
 });
 
-screen.orientation.lock(natural);
-
 var group = new Group();
 var secondLayer = new Layer();
 
