@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no"/>
+        <meta name="apple-mobile-web-app-capable" content="yes"/>
+        <meta name="theme-color" content="#4b0082">
+        <meta name="apple-touch-fullscreen" content="yes"/>
+        <meta name="msapplication-tap-highlight" content="no"/>
+        <link rel="stylesheet" href="vornoiStyles.css">
+        <script src="https://cdn.jsdelivr.net/npm/@jhurliman/essentia.js@0.1.5-dev2/dist/essentia-wasm.web.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@jhurliman/essentia.js@0.1.5-dev2/dist/essentia.js-core.js"></script>
+        <script type="text/javascript" src="./node_modules/paper/dist/paper-full.js"></script>
+        <script type="text/paperscript" canvas="myCanvas" src="main.js"></script>
+    </head>
+    <body>
+        <div class="emCalc" style="height:0;width:0;outline:none;border:none;padding:none;margin:none;box-sizing:content-box;font-size:1em;"></div>
+        <input type="file" accept=".mp3, .wav" id="leftUpload">
+        <input type="file" accept=".mp3, .wav" id="rightUpload">
+        <input type="text" id="idInput" spellcheck="false" autocorrect="off" autocomplete="off" autocapitalize="off" maxlength="16" minlength="4">
+        <canvas id="myCanvas" resize></canvas>
+
+    </body>
+    <script type="module" src="./pointGen.js"></script>
+    <script type="module" src="vornoiScript.js" ></script>
+</html>

@@ -1,0 +1,86 @@
+@font-face {
+  font-family: Microgramma;
+  src: url(./Microgramma\ D\ Extended\ Medium.otf);
+}
+
+html, body{
+    height: 100%;
+    margin:0;
+    padding:0;
+    max-height:100vh;
+    overflow:hidden;
+}
+
+/* Scale canvas with resize attribute to full size */
+canvas[resize] {
+    width: 100%;
+    height: 100%;
+}
+
+svg {
+  display: none;
+}
+
+#leftUpload, #rightUpload{
+
+  height: 0;
+  width: 0;
+  display: none;
+  outline: none;
+  border: none;
+  padding: none;
+  margin: none;
+
+}
+
+input[type=text] {
+
+  position: absolute;
+  top:15%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  border: 5px solid hsl(0, 0%, 5%);
+  border-radius: 4px;
+  display: none;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  /* background-color: #404040; */
+  background-color: hsl(0, 0%, 10%);
+  font-size: 3vmin;
+  color: white;
+  text-align: center;
+  font-family: Microgramma;
+  caret-color: transparent !important;
+
+}
+
+input[type=text]:focus {
+  border-color: white;
+}
+
+.fadeIn {
+
+  animation-name: fadeInAnimation;
+  animation-duration: 0.3s;
+  animation-fill-mode: forwards;
+
+}
+
+.fadeOut {
+
+  animation-name: fadeOutAnimation;
+  animation-duration: 0.3s;
+  animation-fill-mode: forwards;
+
+}
+
+@keyframes fadeInAnimation {
+  0%   {opacity:0}
+100%  {opacity:1}
+}
+
+@keyframes fadeOutAnimation {
+  0%   {opacity:1}
+100%  {opacity:0}
+}
